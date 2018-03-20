@@ -5,6 +5,14 @@
 
 #依赖：
   compile 'com.yanxuwen.OAuth:OAuth:1.0.0'
+# build.gradle 记得加入这句话不然会报错
+~~~
+    repositories {
+        flatDir {
+            dirs '../OAuth/libs';dirs 'libs' 
+        }
+    }
+~~~
 #实现：
 #### 1.首先初始化。
 ~~~
