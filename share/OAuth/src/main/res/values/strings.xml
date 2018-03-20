@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UMShare</string>
+    <string name="send_img_file_not_exist">文件不存在</string>
+</resources>
