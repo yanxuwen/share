@@ -3,8 +3,7 @@
 
 本文写法非常简单，代码又很清晰,目前只支持QQ，微信，新浪，基本APP也就这几种对接而已
 
-#依赖：
-  compile 'com.yanxuwen.OAuth:OAuth:1.0.0'
+# 依赖： compile 'com.yanxuwen.OAuth:OAuth:1.0.0'
 # build.gradle 记得加入这句话不然会报错
 ~~~
     repositories {
